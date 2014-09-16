@@ -22,6 +22,7 @@ Crawl-delay: 10
 Disallow: /
 Disallow: ?
 Disallow: !
+Disallow: team/
 Disallow: /includes/
 Disallow: /misc/
 Disallow: /modules/
