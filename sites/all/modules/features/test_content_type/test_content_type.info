@@ -1,0 +1,17 @@
+name = Test Content Type
+description = new content type to be tested in repo
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = test_content_type
+dependencies[] = link
+dependencies[] = node
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = field_field_link
+features[field_instance][] = node-test_content_type-body
+features[field_instance][] = node-test_content_type-field_field_link
+features[node][] = test_content_type
+features[user_permission][] = edit own test_content_type content
+features_exclude[dependencies][article_1_0] = article_1_0
+features_exclude[dependencies][features] = features
