@@ -1,0 +1,11 @@
+name = Article 1.1
+description = With test field
+core = 7.x
+package = Features
+version = 7.x-1.1
+project = article_1_1
+dependencies[] = features
+dependencies[] = phone
+features[features_api][] = api:2
+features[field_base][] = field_test_field
+features[field_instance][] = node-article-field_test_field
