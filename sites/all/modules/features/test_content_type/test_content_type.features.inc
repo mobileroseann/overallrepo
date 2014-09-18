@@ -10,7 +10,7 @@
 function test_content_type_node_info() {
   $items = array(
     'test_content_type' => array(
-      'name' => t('Test content type'),
+      'name' => t('Whatever'),
       'base' => 'node_content',
       'description' => '',
       'has_title' => '1',

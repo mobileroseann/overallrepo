@@ -8,6 +8,7 @@ dependencies[] = link
 dependencies[] = node
 dependencies[] = text
 features[features_api][] = api:2
+features[field_base][] = body
 features[field_base][] = field_field_link
 features[field_instance][] = node-test_content_type-body
 features[field_instance][] = node-test_content_type-field_field_link
